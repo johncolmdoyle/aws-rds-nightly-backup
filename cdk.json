@@ -3,6 +3,17 @@
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
-    "@aws-cdk/core:stackRelativeExports": "true"
+    "@aws-cdk/core:stackRelativeExports": "true",
+    "ec2_region": "us-east-1",
+    "ec2_type": "t2.large",
+    "db_host": "database-1.ct5iuxjgrvl6.us-east-1.rds.amazonaws.com",
+    "db_user": "postgres",
+    "db_pass": "exampledb",
+    "db_database": "testdb",
+    "cron_minute": "0",
+    "cron_hour": "8",
+    "cron_day": "1",
+    "cron_month": "*",
+    "cron_year": "*"
   }
 }
